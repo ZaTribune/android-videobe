@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/progressDialogText"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:indeterminate="false"
+        android:progress="0"
+        android:progressTint="@color/colorPrimary"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button android:id="@+id/btn_cancel"
+            style="?attr/buttonBarButtonStyle"
+            android:text="@string/cancel"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btn_background"
+            style="?attr/buttonBarButtonStyle"
+            android:text="@string/background"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

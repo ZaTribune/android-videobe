@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+<LinearLayout android:id="@+id/button_layout"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center"
+    android:background="@drawable/image_button_states"
+    style="@style/Widget.AppCompat.Button"
+    android:clickable="true"
+    android:focusable="true">
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:textAppearance="?attr/textAppearanceListItem" />
+    <ImageView android:id="@+id/iv_content"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="center"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/tool_picture" />
+</LinearLayout>
+</FrameLayout>

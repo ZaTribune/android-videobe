@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:activity=".tools.functions.WatermarkFragment"
+    android:baselineAligned="false"
+    android:background="@color/yellow00"
+    android:weightSum="3">
+
+    <LinearLayout android:id="@+id/watermark"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:focusable="true"
+        android:layout_weight="2">
+        <ImageButton
+            android:id="@+id/iv_selectPic"
+            android:background="@drawable/image_button_states"
+            android:src="@drawable/select_img"
+            android:scaleType="center"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:contentDescription="@string/image"
+            style="@style/Widget.AppCompat.Button"/>
+        <TextView
+            android:text="@string/select_a_watermark"
+            android:layout_width="wrap_content"
+            android:layout_height="20dip"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <include layout="@layout/picture_resolution" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|top">
+        <include layout="@layout/position_quick"/>
+        <include layout="@layout/position"/>
+        <include layout="@layout/scale"/>
+    </LinearLayout>
+
+</LinearLayout>

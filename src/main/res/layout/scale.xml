@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/downScale"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/decrease"
+        android:background="@drawable/image_button_states"
+        android:src="@drawable/minus0"
+        style="@style/Widget.AppCompat.Button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scale"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/upScale"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/image_button_states"
+        android:src="@drawable/plus0"
+        android:contentDescription="@string/scale"
+        style="@style/Widget.AppCompat.Button"/>
+
+</LinearLayout>

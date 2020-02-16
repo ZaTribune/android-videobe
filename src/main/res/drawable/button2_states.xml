@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true"
+        android:state_pressed="true" android:drawable="@drawable/button2_focused" />
+    <item android:state_enabled="true"
+        android:state_focused="true" android:drawable="@android:color/holo_green_dark" />
+    <item android:state_enabled="true"
+        android:state_selected="true" android:drawable="@android:color/holo_purple" />
+    <item android:state_enabled="false" android:drawable="@drawable/button2_disabled" />
+    <item android:drawable="@drawable/button2"/>
+</selector>

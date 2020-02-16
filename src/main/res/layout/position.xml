@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="140dp"
+    android:layout_height="120dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/move"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageButton
+        android:id="@+id/incPosY"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/image_button_states"
+        android:contentDescription="@string/up"
+        android:src="@drawable/down"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        style="@style/Widget.AppCompat.Button" />
+
+    <ImageButton
+        android:id="@+id/decPosY"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/image_button_states"
+        android:contentDescription="@string/down"
+        android:src="@drawable/up"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Widget.AppCompat.Button"/>
+
+    <ImageButton
+        android:id="@+id/incPosX"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/image_button_states"
+        android:contentDescription="@string/right"
+        android:src="@drawable/right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.AppCompat.Button"/>
+
+    <ImageButton
+        android:id="@+id/decPosX"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/image_button_states"
+        android:contentDescription="@string/left"
+        android:src="@drawable/left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.AppCompat.Button"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

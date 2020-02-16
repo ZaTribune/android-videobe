@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:name="com.shadow.video_tools.tools.ToolsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingEnd="15dp"
+    android:paddingStart="15dp"
+    android:paddingRight="15dp"
+    app:layoutManager="LinearLayoutManager"
+    tools:activity=".tools.ToolsFragment"
+    android:background="@color/yellow00"
+    tools:listitem="@layout/tool" />

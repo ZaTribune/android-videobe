@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Videobe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dummy">Dummy String</string>
+    <string name="select_a_watermark">watermark pic</string>
+    <string name="ok">OK</string>
+    <string name="watermark_image">watermark_image</string>
+    <string name="image">image</string>
+    <string name="tool_picture">tool_picture</string>
+    <string name="select_a_video_file">select a video file</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    <string name="down">down</string>
+    <string name="up">up</string>
+    <string name="decrease">decrease</string>
+    <string name="width">Width :</string>
+    <string name="height">Height :</string>
+    <string name="preview">PREVIEW</string>
+    <string name="x">X</string>
+    <string name="resolution">Resolution:</string>
+    <string name="play_the_output_video">Play the output Video ?!</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit_editing_changes">submit editing changes</string>
+    <string name="scale">Scale</string>
+    <string name="move">Move</string>
+    <string name="logo">logo</string>
+    <string name="video_sample">video_sample</string>
+    <string name="main_menu_button">main_menu_button</string>
+    <string name="background">Background</string>
+    <string name="video">video</string>
+    <string name="channel_name">videobe channel</string>
+    <string name="channel_description">videobe channel description</string>
+    <string name="encoding_video">Encoding video:</string>
+</resources>

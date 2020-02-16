@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp">
+    <TextView android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:maxLength="50"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/play_the_output_video" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button android:id="@+id/btn_cancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="?android:attr/selectableItemBackground" />
+        <Button android:id="@+id/btn_ok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/ok"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="?android:attr/selectableItemBackground" />
+    </LinearLayout>
+    </LinearLayout>
