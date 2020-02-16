@@ -16,7 +16,6 @@ These instructions will get you a copy of the project up and running on your loc
 &nbsp;&nbsp;&nbsp;&nbsp;**Android Studio** - Java IDE.  
 &nbsp;&nbsp;&nbsp;&nbsp;**Gradle** - Dependency Management.  
 &nbsp;&nbsp;&nbsp;&nbsp;**FFMpeg** - A software suite of libraries for handling video, audio, and other multimedia files and streams. 
-&nbsp;&nbsp;&nbsp;&nbsp;**Summernote** - Super Simple WYSIWYG Editor ,runs on JavaFx WebView.  
 
 ## Authors  
    **Muhammad Ali Arafah** - find me on : [Twitter](https://twitter.com/ZaTribune), [LinkedIn](https://www.linkedin.com/in/zatribune).  
