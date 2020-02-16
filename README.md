@@ -13,7 +13,7 @@ Edit your videos through a set of capable tools to match your desirable output.
 * This App provides a live preview for the output video to the user, this gives a great deal of verification.
 * It has just 3 simple steps as: Select a Tool, a Video and some options.
 * Supports most major Video formats with a multi set of codecs.
-* And of course,a responsive design, pretty nice performance for all devices , supports Android from API Level 16 .
+* And of course, a responsive design, pretty nice performance, support for Android from API Level 16 .
 
 ## Android Support
  minSdkVersion 16
@@ -22,7 +22,7 @@ Edit your videos through a set of capable tools to match your desirable output.
 &nbsp;&nbsp;&nbsp;&nbsp;**Java** - The Main Programming Language and Framework.  
 &nbsp;&nbsp;&nbsp;&nbsp;**Andoid SDK** - Software Platform for creating and delivering Android Applications.   
 &nbsp;&nbsp;&nbsp;&nbsp;**Android Studio** - Java IDE.  
-&nbsp;&nbsp;&nbsp;&nbsp;**Gradle** - Dependency Management.  
+&nbsp;&nbsp;&nbsp;&nbsp;**Gradle** - Build tool & Dependency Management.  
 &nbsp;&nbsp;&nbsp;&nbsp;**FFMpeg** - A software suite of libraries for handling video, audio, and other multimedia files and streams. 
 
 ## Authors  
