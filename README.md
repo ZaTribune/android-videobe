@@ -1,7 +1,8 @@
 # ZaTribune-Videobe
 <p align="center">
-  <img src="screenshots/splashscreen.jpg" height="250"/>
-  <img src="screenshots/progress encoding.jpg" height="250"/>
+  <img src="screenshots/logo.png" height="300"/>
+  <img src="screenshots/splashscreen.jpg" height="300"/>
+  <img src="screenshots/progress encoding.jpg" height="300"/>
 </p>
 
 ## Overview  
