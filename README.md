@@ -7,7 +7,9 @@
 
 ## Overview  
 Simple and easy as it gets! , Use this Android App to customize your videos.  
-Edit your videos through a set of capable tools to match your desirable output. 
+Edit your videos through a set of capable tools to match your desirable output.    
+#### I was asked to develop this application as a graduation project that revolves around property rights, watermarks, etc. for students in computer science, and the discussion was all about the basic feature, which is "watermarking", so I did not complete the work on this project. Please accept my apologies for not completing this project but it's available to you all; My regards.
+
 
 ## Key Features
 * This App provides a live preview for the output video to the user, this gives a great deal of verification.
