@@ -28,7 +28,7 @@ Edit your videos through a set of capable tools to match your desirable output.
 &nbsp;&nbsp;&nbsp;&nbsp;**FFMpeg** - A software suite of libraries for handling video, audio, and other multimedia files and streams. 
 
 ## Authors  
-   **Muhammad Ali Arafah** - find me on : [Twitter](https://twitter.com/ZaTribune), [LinkedIn](https://www.linkedin.com/in/zatribune).  
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=Muhammad%20Ali)](https://linkedin.com/in/zatribune)  
 
 ## Acknowledgments
 Thanks to <a href="https://github.com/WritingMinds/ffmpeg-android-java">WritingMids</a> for providing FFMpeg-Android.
